@@ -1,0 +1,17 @@
+body{
+	background-image: url('../EVENTSIMG/pic3.jpg')!important;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#Wimages img,#Vimages img,#pimages img,#bimages img,#Mimages img{
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px){
+	.row img{
+		width: 100%;
+	}
+}

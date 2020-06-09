@@ -1,0 +1,254 @@
+body{
+	background-image: url('../pic3.jpg')!important;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.myLogo{
+    width: 230px;
+    height: 100px;
+}
+#wrapper{
+	
+	width:100%;
+	height: 100%;
+}
+.myNav{
+	background-image: url('../pic3.jpg')!important;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+}
+#footer{
+	font-size:100px;
+	font-weight: bold;
+	height: 50px;
+	width: 100%;
+	color:white;
+	font-family: cursive;
+}
+#copyrights{
+	width: 50%;
+	float: left;
+}
+#back{
+	width: 60px;
+	height: 30px;
+	display: flex;
+	float: right;
+}
+#back img{
+	height: 30px;
+	display: flex;
+	width: 60px;
+	border: 1px solid black;
+}
+@media screen and (max-width: 480px){
+	.myLogo{
+		width: 135px;
+		height: 60px;
+	}
+	#footer h5{
+		font-size: 8px;
+	}
+	#back img{
+		height: 15px;
+		width: 30px;
+	}
+	#HOME p,#aboutusmain p{
+		font-size: 18px;
+	}
+	marquee{
+		width: 600px;
+	}
+	.pack li,.pack h2{
+		font-size: 20px;
+	}
+	#cus,form{
+		font-size: 15px;
+	}
+	#connect{
+		width: 60%;
+	}
+	#eventsid h2{
+		font-size: 28px;
+	}
+	.row video{
+		width: 100%;
+	}
+
+}
+
+/*------------------------------------HOME-----------------------*/
+#HOME{
+	font-size:25px;
+	text-align: center;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#HOME h1{
+	font-size: 30px;
+}
+#HOME h1 span{
+	color:green
+}
+.mySlide{
+	height: 400px!important;
+}
+
+
+
+
+/*--------------------------------------ABOUT US-------------------------------*/
+
+
+#aboutus{
+	text-align:center;
+}
+#aboutusmain{
+	text-align:center;
+	font-size:25px;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+
+/*------------------------------------CONTACT US----------------------------*/
+
+
+.myButton {
+	box-shadow: 12px 7px 8px -1px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:16px;
+	border:2px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:blue;
+	font-family:Georgia;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 59px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#button{
+	width:100%;
+	height:5px;
+}
+
+.form, h1{
+	font-size:25px;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.form h1{
+	text-align: center;
+}
+.spacing{
+	height:28px;
+}
+table{
+	padding:30px;
+}
+
+
+.HSbutton {	
+	background:linear-gradient(to bottom, #02290d 5%, #5cbf2a 100%);
+	background-color:#02290d;
+	border-radius:17px;
+	border:1px solid #3a9944;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:20px;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.HSbutton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #02290d 100%);
+	background-color:#5cbf2a;
+}
+.HSbutton:active {
+	position:relative;
+	top:1px;
+}
+#connectus h2{
+	font-size:25px;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#connectus h1{
+	font-size:25px;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#cus{
+	text-align: center;
+}
+
+
+/*----------------------PACKAGES-----------------------------------------*/
+
+.pack{
+	font-size:25px;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/*----------------------EVENTS------------------------------------------*/
+
+#wedding{
+    background-image: url('./EVENTSIMG/birthday/main.jpg');
+    width:100%;
+    height:400px;
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.events{
+	font-size:30px;
+	color:whitesmoke;
+	background-color: tomato;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	height:400px;
+	transform:translate(50px,25px);
+	transform:skew(5deg,10deg);
+	transition:width 1s,height 2s,transform 2s;
+	margin-top:200px;
+}
+.events:hover{
+	transform:translate(25px,50px);
+	margin-top: 200px;
+}
+#eventsid a{
+	text-decoration: none;
+	text-align: center;
+}
+.events h2{
+	border: 1px solid black;
+}
+#eventsid h1{
+	font-size: 35px;;
+}
+
+/*-----------------------------VIDEOS--------------------------------------------*/
+#myVideos{
+	margin: 10px;
+}
